@@ -28,7 +28,10 @@ public class ExampleUnitTest {
 //~/Library/Android/sdk/tools/emulator -avd test -no-skin -no-audio -no-window -system /Users/ns/Library/Android/sdk/system-images/android-22/google_apis/x86_64/system.img
 //./gradlew build
 //adb install -r app/build/outputs/apk/app-debug.apk
+<<<<<<< HEAD
 //adb install -r AndroidStudioProjects/MyApplication/app/build/outputs/apk/app-debug.apk
+=======
+>>>>>>> origin/master
 
 //adb shell am start -n com.example.ns.myapplication/com.example.ns.myapplication.MainActivity
 
@@ -36,6 +39,7 @@ public class ExampleUnitTest {
 
 //adb shell am instrument -e class com.example.ns.myapplication.MainActivityInstrumentationTest -w com.example.ns.myapplication.test/android.support.test.runner.AndroidJUnitRunner
 
+<<<<<<< HEAD
 
 ///home/flow/jobs/58d35708ef2cb04cb93702de/build/KaneHui/Test/app/build/outputs/apk/app-debug.apk
 /*
@@ -106,3 +110,5 @@ done
  #adb shell pm list instrumentation
  adb shell am instrument -w com.example.ns.myapplication.test/android.support.test.runner.AndroidJUnitRunner
  */
+=======
+>>>>>>> origin/master

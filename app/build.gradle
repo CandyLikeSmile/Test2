@@ -1,13 +1,22 @@
 apply plugin: 'com.android.application'
 
 android {
+<<<<<<< HEAD
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
+=======
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+>>>>>>> origin/master
 
     defaultConfig {
         applicationId "com.example.ns.myapplication"
         minSdkVersion 21
+<<<<<<< HEAD
         targetSdkVersion 23
+=======
+        targetSdkVersion 25
+>>>>>>> origin/master
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -27,6 +36,7 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
+<<<<<<< HEAD
     compile 'com.android.support:appcompat-v7:23.3.0'
 
 
@@ -36,5 +46,17 @@ dependencies {
     androidTestCompile 'com.android.support.test:runner:0.2'
     androidTestCompile 'com.android.support.test:rules:0.2'
     //espresso是一个UI测试框架,也可以选用其他的测试框架,比如Hamcrest、uiautomator
+=======
+    compile 'com.android.support:appcompat-v7:25.3.0'
+
+
+    //
+    //Add this line,the version must same with compile's version
+    androidTestCompile 'com.android.support:support-annotations:25.3.0'
+
+
+    androidTestCompile 'com.android.support.test:runner:0.2'
+    androidTestCompile 'com.android.support.test:rules:0.2'
+>>>>>>> origin/master
     androidTestCompile 'com.android.support.test.espresso:espresso-core:2.1'
 }
